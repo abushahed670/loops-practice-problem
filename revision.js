@@ -7,7 +7,7 @@ var glassPrice = 120;
 
 // boolean type variable
 
-var isExpensive = true,
+var isExpensive = true;
 
 // items type variable 
 
@@ -21,13 +21,13 @@ var tableItems = ['rice', 'dall', 'vat', 'fish', 'meat'];
 // conditional... if, else, else if
 
 if(tableItems > 4){
-
+console.log('next time');
 
 }
-else if(tableItems[3] == vat){
-
+else if(tableItems[3] == 'vat'){
+console.log('its okey');
 }
 else{
-
+console.log('its not for you');
 }
 
